@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    color: darkgreen;
+}
+
+/* -----------------Navba-----------------r */
+
+.navbar{
+    background-color: black;
+    height: 60px;
+}
+.navbar span, a{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+}
+#logo{
+    top: 15px;
+    font-size: 30px;
+    left: 100px;
+}
+.navbar i{
+    font-size: 20px;
+    position: relative;
+    margin-right: 10px;
+}
+#sign_up{
+    right: 200px;
+    font-size: 20px;
+    border-left: 1px solid rgb(58, 58, 58);
+    padding: 18px 10px;
+}
+#log_in{
+    right: 70px;
+    font-size: 20px;
+    border-left: 1px solid rgb(58, 58, 58);
+    border-right: 1px solid rgb(58, 58, 58);
+    padding: 18px 20px;
+}
+
+/* ----------------------Header---------------------- */
+
+.header{
+    position: relative;
+}
+#header{
+    background-image: url(images/nature_header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.header-text{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    text-align: center;
+    border: 2px solid white;
+    padding: 30px;
+}
+.header-text p{
+    font-size: 20px;
+}
+.header-text h1{
+    font-size: 70px;
+}
+.header-text button{
+    background-color: greenyellow;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+/* ---------------------------Main Content---------------------------  */
+
+/* Box Content  */
+
+.box{
+    margin: 100px 50px 100px;
+    display: inline-block;
+    border: 1px solid black ;
+    border-radius: 30px;
+    width: 400px;
+    
+}
+.wall-img{
+    display:block;
+    border-radius: 30px;
+}
+.user-img{
+    display: inline-block;
+    margin: 10px 10px;
+    border-radius: 50px;
+}
+.box p{
+    display: inline-block;
+    position: absolute;
+    width: 300px;
+    margin: 20px 10px;
+    font-style: italic;
+}
+
+hr{
+    border-top: 10px dotted greenyellow;
+    width: 100px;
+    margin: 50px auto;
+}
+
+/* User Reviews Content  */
+.user-reviews h2{
+    text-align: center;
+    margin-top: 30px;
+}
+.user-box{
+    display: inline-block;
+    width: 350px;
+    margin: 100px 13px;
+
+}
+.user-box img{
+    display: inline-block;
+    border-radius: 50px;
+}
+.user-box p{
+    display: inline-block;
+    position: absolute;
+    width: 250px;
+    margin: 20px 10px
+}
+
+/* Features Content  */
+.features h2{
+    text-align: center;
+    margin-top: 30px;
+}
+.feature-box{
+    display: inline-block;
+    width: 300px;
+    margin: 100px 30px;
+    text-align: center;
+}
+.feature-box i{
+    font-size: 100px;
+    color: greenyellow;
+}
+.feature-box p{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/* ----------------------------- Footer Content ------------------------- */
+.footer{
+    background-color: black;
+    color: white;
+    height: 300px;
+}
+.footer-box{
+    display: inline-block;
+    width: 350px;
+    border: 1px solid black;
+    margin: 50px 5%;
+}
+.footer-box h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer-box h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#footer-btn{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+
+}
+.footer-box i{
+    font-size: 30px;
+    margin: 0px 43px;
+}
+.footer h5{
+    text-align: center;
+}
